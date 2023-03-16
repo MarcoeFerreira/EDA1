@@ -12,7 +12,7 @@
 #ifndef CLIENTE_H_
 #define CLIENTE_H_
 
-#define CLIENTE_DIR "Data/ReadOnly/customer.txt"
+#define CLIENTE_DIR "Copiar o caminho da pasta"
 
 #define MORADA_SIZE 80
 #define NAME_SIZE 40
@@ -39,6 +39,6 @@ Cliente* GetCliente(Cliente* head, int index);
  * @return 2 - Erro no sscanf_s
  * @return 3 - Error ao abrir o ficheiro
  */
-int ReadclientesFiles(Cliente** head);
+int ReadClientesFiles(Cliente** head);
 
 #endif
